@@ -1,0 +1,101 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.nojobsfound {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40% !important;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100% !important;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jobapply {
+    margin-top: 10px !important;
+    max-width: 20% !important;
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.searchbg {
+    background-color: #bababa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 15px;
+}
+
+h4 {
+    color: blue !important;
+    text-align: center !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+}

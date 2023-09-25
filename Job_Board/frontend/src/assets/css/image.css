@@ -1,0 +1,18 @@
+.image-container {
+    background-image: linear-gradient(#084D63, #020F14);
+    background-size: cover;
+    padding: 50px;
+    width: 100vw;
+    min-height: 50%;
+}
+
+@media screen and (min-width:768px) {
+    .image-container {
+        background-image: url("../images/login_bg.png");
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,10 @@
+.jobdesc {
+    background-color: antiquewhite !important;
+    padding: 8px 0px;
+    padding-right: 2px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
