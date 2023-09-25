@@ -1,0 +1,23 @@
+.popup-content {
+    /* Existing styles */
+    position: relative; /* Added to position close symbol */
+  }
+  
+  .close-symbol {
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .close-symbol:hover {
+    color: #555;
+  }
+  
+  .popup-content button {
+    width: 100%; /* Adjusted width */
+    margin: 10px 0; /* Adjusted margins */
+    padding: 10px; /* Adjusted padding */
+  }
+  

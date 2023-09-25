@@ -1,0 +1,22 @@
+.modal-50w {
+    max-width: 70% !important;
+    width: 100% !important;
+}
+
+th {
+    background-color: blue !important;
+    color: white !important;
+    border: 1px solid #ccc !important;
+    padding: 8px !important;
+}
+
+td {
+    border: 1px solid #ccc !important;
+    padding: 8px !important;
+
+}
+
+.dlt-edt-icon {
+    display: flex !important;
+    justify-content: space-between !important;
+}
